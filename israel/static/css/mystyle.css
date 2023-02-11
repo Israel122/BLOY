@@ -1,0 +1,15 @@
+body {
+    background-color: rgba(172, 34, 34, 0.774);
+}
+
+h1 {
+    color: rgba(128, 0, 0, 0);
+    text-align: center;
+
+}
+
+.login {
+    border: solid blue;
+    border-radius: 50px;
+    background-color: blue;
+}

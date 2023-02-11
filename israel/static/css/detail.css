@@ -1,0 +1,29 @@
+.button {
+    border: solid blue;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 255, 0.247);
+
+}
+
+.delete {
+    border: solid blue;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 255, 0.288);
+
+}
+
+.edit {
+    border: solid blue;
+    border-radius: 50px;
+
+
+}
+
+.back {
+    border: solid blue;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 255, 0.336);
+
+}
+
+

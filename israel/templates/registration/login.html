@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0>    
+    {% block title %}
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'css/mystyle.css' %}">
+
+    {% endblock title %}    
+</head>
+<body>
+{% block content %}
+{% load static %}
+<div class="main-div" >
+<h1> Login </h1>
+<form  style="text-align:center; font-size: 30px;" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button class="login" type="submit">Login</button>
+</form>
+<br>
+<a style="color: rgb(255, 255, 255);text-align:center; font-size: 30px" class="btn btn-outline-secondary" href="{% url 'signup' %}">signup here</a>
+</div>
+{% endblock %}
+</body>
+</html>
